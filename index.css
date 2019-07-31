@@ -1,0 +1,58 @@
+html, body {
+	background-color: #151515;
+}
+
+body {
+	padding: 50px 0;
+}
+
+/* 모바일 */
+@media (max-width: 1000px) {
+	
+	#wrapper {
+		
+	}
+}
+
+/* PC */
+@media (min-width: 1001px) {
+	
+	#wrapper {
+		width: 950px;
+		margin: auto;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 img {
+	width: 295.5px;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.panel {
+	margin-top: 50px;
+	background-color: #1e1e1e;
+	padding: 50px;
+}
+
+.panel p {
+	margin-top: 30px;
+	color: #999;
+	font-size: 16px;
+}
+
+.panel p.small {
+	color: #666;
+	font-size: 14px;
+}
+
+i {
+	color: #980100;
+}
