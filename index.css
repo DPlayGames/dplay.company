@@ -9,8 +9,14 @@ body {
 /* 모바일 */
 @media (max-width: 1000px) {
 	
-	#wrapper {
-		
+	#wrapper {}
+	
+	h2 {
+		font-size: 35px;
+	}
+	
+	.panel {
+		padding: 20px;
 	}
 }
 
@@ -20,6 +26,14 @@ body {
 	#wrapper {
 		width: 950px;
 		margin: auto;
+	}
+	
+	h2 {
+		font-size: 50px;
+	}
+	
+	.panel {
+		padding: 50px;
 	}
 }
 
@@ -32,14 +46,12 @@ h1 img {
 }
 
 h2 {
-	font-size: 50px;
 	margin-bottom: 30px;
 }
 
 .panel {
 	margin-top: 50px;
 	background-color: #1e1e1e;
-	padding: 50px;
 }
 
 .panel p {
