@@ -24,8 +24,13 @@ body {
 	}
 	
 	.member {
-		width: 100%;
+		padding : 20px;
 		float: none;
+		margin-bottom: 20px;
+	}
+	
+	.member.last {
+		margin-bottom: 0;
 	}
 }
 
@@ -80,13 +85,9 @@ h2 {
 	font-size: 16px;
 }
 
-.panel p.small {
-	color: #666;
-	font-size: 14px;
-}
-
 .member {
 	background-color: #151515;
+	text-align: center;
 }
 
 .member .profile {
@@ -95,14 +96,12 @@ h2 {
 
 .member .name {
 	margin-top: 20px;
-	text-align: center;
 	color: #999;
 	font-size: 20px;
 }
 
 .member .role {
 	margin-top: 15px;
-	text-align: center;
 	color: #666;
 	font-size: 15px;
 }
