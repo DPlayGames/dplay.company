@@ -139,8 +139,13 @@ h3 {
 	width: 450px;
 }
 
+.project-image img {
+	width: 450px;
+}
+
 .project-info {
 	margin-left: 20px;
+	width: 340px;
 	float: left;
 	color: #ccc;
 }
