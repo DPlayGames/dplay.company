@@ -27,14 +27,47 @@ body {
 		padding: 20px;
 	}
 	
+	.panel p {
+		margin-top: 20px;
+	}
+	
+	.project-image img {
+		width: 100%;
+	}
+	
+	.project-info {
+		margin-top: 25px;
+		color: #ccc;
+	}
+	
+	.project-info .dev {
+		margin-top: 20px;
+		text-align: right;
+		font-style: italic;
+	}
+	
+	#btncafe img {
+		float: left;
+		width: 33.3%;
+	}
+	
 	.member {
 		padding : 20px;
+		padding-bottom: 15px;
 		float: none;
 		margin-bottom: 20px;
 	}
 	
 	.member.last {
 		margin-bottom: 0;
+	}
+	
+	.member-line {
+		display: none;
+	}
+	
+	#member-detail {
+		display: none;
 	}
 }
 
@@ -58,14 +91,56 @@ body {
 		padding: 50px;
 	}
 	
+	.panel p {
+		margin-top: 30px;
+	}
+	
+	.project-image {
+		float: left;
+		width: 450px;
+	}
+	
+	.project-image img {
+		width: 450px;
+	}
+	
+	.project-info {
+		margin-left: 20px;
+		width: 340px;
+		float: left;
+		color: #ccc;
+	}
+	
+	.project-info .dev {
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		font-style: italic;
+	}
+	
+	#btncafe img {
+		float: left;
+		width: 150px;
+		height: 150px;
+	}
+	
 	.member {
 		width: 150px;
+		height: 220px;
 		padding : 20px;
 		margin-right: 30px;
 		float: left;
 	}
 	
+	.member .detail {
+		display: none;
+	}
+	
 	.member.last {
+		margin-right: 0;
+	}
+	
+	.member-line.last {
 		margin-right: 0;
 	}
 }
@@ -87,15 +162,29 @@ h3 {
 	padding-left: 10px;
 }
 
+i {
+	color: #980100;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
 .panel {
 	margin-top: 50px;
 	background-color: #1e1e1e;
 }
 
 .panel p {
-	margin-top: 30px;
 	color: #999;
 	font-size: 16px;
+}
+
+.project {
+	position: relative;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #151515;
 }
 
 .member {
@@ -119,43 +208,22 @@ h3 {
 	font-size: 15px;
 }
 
-.member .button {
+.member .detail {
 	margin-top: 20px;
+	color: #999;
+	text-align: left;
 }
 
-.member .button i {
-	color: #666;
-	font-size: 15px;
-}
-
-.project {
-	margin-top: 20px;
-	padding: 20px;
+.member-line {
 	background-color: #151515;
-}
-
-.project-image {
+	width: 190px;
+	margin-right: 30px;
 	float: left;
-	width: 450px;
 }
 
-.project-image img {
-	width: 450px;
-}
-
-.project-info {
-	margin-left: 20px;
-	width: 340px;
-	float: left;
-	color: #ccc;
-}
-
-#btncafe img {
-	float: left;
-	width: 150px;
-	height: 150px;
-}
-
-i {
-	color: #980100;
+#member-detail {
+	background-color: #151515;
+	padding : 20px;
+	padding-bottom: 15px;
+	color: #999;
 }
