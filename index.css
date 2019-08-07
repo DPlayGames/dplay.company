@@ -15,6 +15,10 @@ body {
 	
 	#wrapper {}
 	
+	h1 img {
+		width: 197px;
+	}
+	
 	h2 {
 		font-size: 35px;
 	}
@@ -81,6 +85,10 @@ body {
 	#wrapper {
 		width: 950px;
 		margin: auto;
+	}
+	
+	h1 img {
+		width: 295.5px;
 	}
 	
 	h2 {
@@ -155,10 +163,6 @@ body {
 
 h1 {
 	text-align: center;
-}
-
-h1 img {
-	width: 295.5px;
 }
 
 h2 {
@@ -242,7 +246,14 @@ ul {
 
 #member-detail {
 	background-color: #151515;
-	padding : 20px;
+	padding: 20px;
 	padding-bottom: 15px;
 	height: 235px;
+}
+
+#codeislaw {
+	margin-top: 40px;
+	padding: 20px;
+	color: #980100;
+	font-style: italic;
 }
