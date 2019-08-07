@@ -99,13 +99,6 @@ body {
 		margin-top: 30px;
 	}
 	
-	.panel .sign {
-		margin-top: 20px;
-		text-align: right;
-		font-style: italic;
-		color: #999;
-	}
-	
 	.project-image {
 		float: left;
 		width: 450px;
@@ -197,6 +190,13 @@ ul {
 .panel p {
 	color: #999;
 	font-size: 16px;
+}
+
+.panel .sign {
+	margin-top: 20px;
+	text-align: right;
+	font-style: italic;
+	color: #999;
 }
 
 .project {
