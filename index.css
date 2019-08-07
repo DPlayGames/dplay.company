@@ -46,6 +46,10 @@ body {
 		font-style: italic;
 	}
 	
+	.project ul {
+		margin-top: 20px;
+	}
+	
 	#btncafe img {
 		float: left;
 		width: 33.3%;
@@ -95,6 +99,13 @@ body {
 		margin-top: 30px;
 	}
 	
+	.panel .sign {
+		margin-top: 20px;
+		text-align: right;
+		font-style: italic;
+		color: #999;
+	}
+	
 	.project-image {
 		float: left;
 		width: 450px;
@@ -116,6 +127,10 @@ body {
 		right: 20px;
 		bottom: 20px;
 		font-style: italic;
+	}
+	
+	.project ul {
+		margin-top: 45px;
 	}
 	
 	#btncafe img {
@@ -168,6 +183,10 @@ i {
 
 li {
 	margin-bottom: 5px;
+}
+
+ul {
+	color: #999;
 }
 
 .panel {
@@ -225,6 +244,5 @@ li {
 	background-color: #151515;
 	padding : 20px;
 	padding-bottom: 15px;
-	color: #999;
-	height: 230px;
+	height: 235px;
 }
