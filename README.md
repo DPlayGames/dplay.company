@@ -1,4 +1,4 @@
 # dplay.company
-https://dplay.company 사이트의 소스코드 저장소입니다.
+Below is the source code repository for the site https://dplay.company
 
 [LICENSE](LICENSE)
