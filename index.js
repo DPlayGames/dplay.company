@@ -103,12 +103,22 @@ RUN(() => {
 		value : pageLang,
 		on : {
 			change : (e, select) => {
+				
+				if (select.getValue() === 'en') {
+					langStore.save({
+						name : 'isToEnglishPage',
+						value : true
+					});
+				}
+				
 				changePageByLang(select.getValue());
 			}
 		}
 	}).appendTo(BODY);
 	
-	if (langStore.get('lang') === undefined) {
+	if (
+	(pageLang === 'en' && langStore.get('isToEnglishPage') !== true) ||
+	langStore.get('lang') === undefined) {
 		
 		langStore.save({
 			name : 'lang',
