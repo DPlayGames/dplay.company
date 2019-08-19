@@ -60,20 +60,23 @@ RUN(() => {
 	
 	let changePageByLang = (lang) => {
 		
-		if (lang === 'en') {
-			location.href = 'index.html';
-		}
-		
-		if (lang === 'ko') {
-			location.href = 'index-kr.html';
-		}
-		
-		if (lang === 'zh-TW') {
-			location.href = 'index-zh-tw.html';
-		}
-		
-		if (lang === 'zh-CN') {
-			location.href = 'index-zh-cn.html';
+		if (browserLang !== lang) {
+			
+			if (lang === 'en') {
+				location.href = 'index.html';
+			}
+			
+			if (lang === 'ko') {
+				location.href = 'index-kr.html';
+			}
+			
+			if (lang === 'zh-TW') {
+				location.href = 'index-zh-tw.html';
+			}
+			
+			if (lang === 'zh-CN') {
+				location.href = 'index-zh-cn.html';
+			}
 		}
 	};
 	
