@@ -60,7 +60,7 @@ RUN(() => {
 	
 	let changePageByLang = (lang) => {
 		
-		if (browserLang !== lang) {
+		if (pageLang !== lang) {
 			
 			if (lang === 'en') {
 				location.href = 'index.html';
