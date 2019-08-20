@@ -112,6 +112,11 @@ RUN(() => {
 						name : 'isToEnglishPage',
 						value : true
 					});
+				} else {
+					langStore.save({
+						name : 'isToEnglishPage',
+						value : false
+					});
 				}
 				
 				changePageByLang(select.getValue());
