@@ -50,6 +50,13 @@ body {
 		font-style: italic;
 	}
 	
+	.project-info .link {
+		margin-top: 20px;
+		text-align: right;
+		color: #980100;
+		font-size: 20px;
+	}
+	
 	.project ul {
 		margin-top: 20px;
 	}
@@ -128,6 +135,14 @@ body {
 		right: 20px;
 		bottom: 20px;
 		font-style: italic;
+	}
+	
+	.project-info .link {
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		color: #980100;
+		font-size: 20px;
 	}
 	
 	.project ul {
